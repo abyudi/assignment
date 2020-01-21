@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="171943" started-at="2020-01-21T13:48:15Z" finished-at="2020-01-21T13:51:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="171943" started-at="2020-01-21T13:48:15Z" finished-at="2020-01-21T13:51:07Z">
+      <class name="main.GoogleSearch">
+        <test-method status="PASS" signature="setup()[pri:0, instance:main.GoogleSearch@18be83e4]" name="setup" is-config="true" duration-ms="30979" started-at="2020-01-21T19:18:18Z" finished-at="2020-01-21T19:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:main.GoogleSearch@18be83e4]" name="Test" duration-ms="18874" started-at="2020-01-21T19:18:49Z" data-provider="data" finished-at="2020-01-21T19:19:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peer-to-peer lending]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:main.GoogleSearch@18be83e4]" name="tearDown" is-config="true" duration-ms="1247" started-at="2020-01-21T19:19:08Z" finished-at="2020-01-21T19:19:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:main.GoogleSearch@18be83e4]" name="setup" is-config="true" duration-ms="9911" started-at="2020-01-21T19:19:09Z" finished-at="2020-01-21T19:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:main.GoogleSearch@18be83e4]" name="Test" duration-ms="42263" started-at="2020-01-21T19:19:19Z" data-provider="data" finished-at="2020-01-21T19:20:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[low risk fund]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:main.GoogleSearch@18be83e4]" name="tearDown" is-config="true" duration-ms="1424" started-at="2020-01-21T19:20:02Z" finished-at="2020-01-21T19:20:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:main.GoogleSearch@18be83e4]" name="setup" is-config="true" duration-ms="13103" started-at="2020-01-21T19:20:03Z" finished-at="2020-01-21T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:main.GoogleSearch@18be83e4]" name="Test" duration-ms="4558" started-at="2020-01-21T19:20:16Z" data-provider="data" finished-at="2020-01-21T19:20:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[finzy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:main.GoogleSearch@18be83e4]" name="tearDown" is-config="true" duration-ms="1245" started-at="2020-01-21T19:20:21Z" finished-at="2020-01-21T19:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:main.GoogleSearch@18be83e4]" name="setup" is-config="true" duration-ms="8380" started-at="2020-01-21T19:20:22Z" finished-at="2020-01-21T19:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:main.GoogleSearch@18be83e4]" name="Test" duration-ms="34751" started-at="2020-01-21T19:20:30Z" data-provider="data" finished-at="2020-01-21T19:21:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[low risk investment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:main.GoogleSearch@18be83e4]" name="tearDown" is-config="true" duration-ms="1444" started-at="2020-01-21T19:21:05Z" finished-at="2020-01-21T19:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- main.GoogleSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
