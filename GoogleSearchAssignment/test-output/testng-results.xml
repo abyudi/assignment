@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="171943" started-at="2020-01-21T13:48:15Z" finished-at="2020-01-21T13:51:07Z">
+  <suite name="Default suite" duration-ms="129753" started-at="2020-01-22T14:11:02Z" finished-at="2020-01-22T14:13:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="171943" started-at="2020-01-21T13:48:15Z" finished-at="2020-01-21T13:51:07Z">
+    <test name="Default test" duration-ms="129753" started-at="2020-01-22T14:11:02Z" finished-at="2020-01-22T14:13:12Z">
       <class name="main.GoogleSearch">
-        <test-method status="PASS" signature="setup()[pri:0, instance:main.GoogleSearch@18be83e4]" name="setup" is-config="true" duration-ms="30979" started-at="2020-01-21T19:18:18Z" finished-at="2020-01-21T19:18:49Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:main.GoogleSearch@cb5822]" name="setup" is-config="true" duration-ms="18686" started-at="2020-01-22T19:41:05Z" finished-at="2020-01-22T19:41:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:main.GoogleSearch@18be83e4]" name="Test" duration-ms="18874" started-at="2020-01-21T19:18:49Z" data-provider="data" finished-at="2020-01-21T19:19:08Z">
+        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:main.GoogleSearch@cb5822]" name="Test" duration-ms="9472" started-at="2020-01-22T19:41:24Z" data-provider="data" finished-at="2020-01-22T19:41:33Z">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:main.GoogleSearch@18be83e4]" name="tearDown" is-config="true" duration-ms="1247" started-at="2020-01-21T19:19:08Z" finished-at="2020-01-21T19:19:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:main.GoogleSearch@cb5822]" name="tearDown" is-config="true" duration-ms="1378" started-at="2020-01-22T19:41:33Z" finished-at="2020-01-22T19:41:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:main.GoogleSearch@18be83e4]" name="setup" is-config="true" duration-ms="9911" started-at="2020-01-21T19:19:09Z" finished-at="2020-01-21T19:19:19Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:main.GoogleSearch@cb5822]" name="setup" is-config="true" duration-ms="7802" started-at="2020-01-22T19:41:35Z" finished-at="2020-01-22T19:41:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:main.GoogleSearch@18be83e4]" name="Test" duration-ms="42263" started-at="2020-01-21T19:19:19Z" data-provider="data" finished-at="2020-01-21T19:20:02Z">
+        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:main.GoogleSearch@cb5822]" name="Test" duration-ms="33053" started-at="2020-01-22T19:41:42Z" data-provider="data" finished-at="2020-01-22T19:42:15Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:main.GoogleSearch@18be83e4]" name="tearDown" is-config="true" duration-ms="1424" started-at="2020-01-21T19:20:02Z" finished-at="2020-01-21T19:20:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:main.GoogleSearch@cb5822]" name="tearDown" is-config="true" duration-ms="1535" started-at="2020-01-22T19:42:15Z" finished-at="2020-01-22T19:42:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:main.GoogleSearch@18be83e4]" name="setup" is-config="true" duration-ms="13103" started-at="2020-01-21T19:20:03Z" finished-at="2020-01-21T19:20:16Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:main.GoogleSearch@cb5822]" name="setup" is-config="true" duration-ms="9929" started-at="2020-01-22T19:42:17Z" finished-at="2020-01-22T19:42:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:main.GoogleSearch@18be83e4]" name="Test" duration-ms="4558" started-at="2020-01-21T19:20:16Z" data-provider="data" finished-at="2020-01-21T19:20:21Z">
+        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:main.GoogleSearch@cb5822]" name="Test" duration-ms="3966" started-at="2020-01-22T19:42:27Z" data-provider="data" finished-at="2020-01-22T19:42:31Z">
           <params>
             <param index="0">
               <value>
@@ -60,15 +60,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:main.GoogleSearch@18be83e4]" name="tearDown" is-config="true" duration-ms="1245" started-at="2020-01-21T19:20:21Z" finished-at="2020-01-21T19:20:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:main.GoogleSearch@cb5822]" name="tearDown" is-config="true" duration-ms="1130" started-at="2020-01-22T19:42:31Z" finished-at="2020-01-22T19:42:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:main.GoogleSearch@18be83e4]" name="setup" is-config="true" duration-ms="8380" started-at="2020-01-21T19:20:22Z" finished-at="2020-01-21T19:20:30Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:main.GoogleSearch@cb5822]" name="setup" is-config="true" duration-ms="7269" started-at="2020-01-22T19:42:32Z" finished-at="2020-01-22T19:42:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:main.GoogleSearch@18be83e4]" name="Test" duration-ms="34751" started-at="2020-01-21T19:20:30Z" data-provider="data" finished-at="2020-01-21T19:21:05Z">
+        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:main.GoogleSearch@cb5822]" name="Test" duration-ms="31308" started-at="2020-01-22T19:42:39Z" data-provider="data" finished-at="2020-01-22T19:43:11Z">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:main.GoogleSearch@18be83e4]" name="tearDown" is-config="true" duration-ms="1444" started-at="2020-01-21T19:21:05Z" finished-at="2020-01-21T19:21:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:main.GoogleSearch@cb5822]" name="tearDown" is-config="true" duration-ms="1083" started-at="2020-01-22T19:43:11Z" finished-at="2020-01-22T19:43:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -3,6 +3,8 @@ package main;
 import org.testng.annotations.Test;
 
 import utility.ExcelUtils;
+import utility.Service;
+
 import org.testng.annotations.BeforeMethod;
 
 import java.util.List;
@@ -15,10 +17,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 
-public class GoogleSearch {
+public class GoogleSearch implements Service{
 	
-	String excelPath = "C:\\Users\\DELL\\Desktop\\AB\\Test Data\\TD.xlsx";
-	String sheetName = "Sheet1";
 	ExcelUtils eu = null;
 	
 	WebDriver driver;
@@ -95,7 +95,6 @@ public Object[][] getData (String excelPath, String sheetName) throws Exception
 @BeforeMethod
 public void setup()
 {	
-  String service = "C:\\Users\\DELL\\Desktop\\AB\\Service\\chromedriver.exe";
 	System.setProperty("webdriver.chrome.driver", service);
 	driver = new ChromeDriver();
   
@@ -104,7 +103,6 @@ public void setup()
   driver.manage().deleteAllCookies();
   driver.manage().window().maximize();
   
-  String baseUrl = "https://google.com";
   driver.get(baseUrl);
   System.out.println("Navigation successful");
 }  
